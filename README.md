@@ -51,4 +51,30 @@ rosrun rviz rviz
 ```
 
  
+LaViRIA
+-------
 
+
+Hardware
+--------
+
+El robot en el que se instalo sicktoolbox_wrapper es un Pioneer 3-AT con un Escáner Laser 2D - LMS200 y una computadora de 64 bits. 
+
+
+Software Instalado
+------------------
+
+El sistema operativo en el que se instalo el nodo rosaria fue Xubuntu 20.04 (Focal Fossa) con las herramientas que tiene instaladas por defecto, GNU C++ (g++/gcc), GNU Make con las herramientas de shell estándar y ROS Noetic Ninjemys. 
+
+
+Instrucciones para instalar sicktoolbox_wrapper
+-----------------------------------------------
+
+1. En la carpeta src clonamos los repositorios desicktoolbox_wrapper y sicktoolbox
+
+  git clone https://github.com/LaViRIA-code/sicktoolbox_wrapper.git
+  git clone https://github.com/LaViRIA-code/sicktoolbox.git
+
+2. Nos dirijimos a la espacio de trabajo (catkin_ws) y compilamos el código con el comando:
+
+  catkin_make
