@@ -72,9 +72,9 @@ Instrucciones para instalar sicktoolbox_wrapper
 
 1. En la carpeta src clonamos los repositorios desicktoolbox_wrapper y sicktoolbox
 
-  git clone https://github.com/LaViRIA-code/sicktoolbox_wrapper.git
-  git clone https://github.com/LaViRIA-code/sicktoolbox.git
+   git clone https://github.com/LaViRIA-code/sicktoolbox_wrapper.git
+   git clone https://github.com/LaViRIA-code/sicktoolbox.git
 
 2. Nos dirijimos a la espacio de trabajo (catkin_ws) y compilamos el código con el comando:
 
-  catkin_make
+   catkin_make
